@@ -1,9 +1,109 @@
 
 #header {
-    background-color: rgb(118, 127, 209);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
     height: 98px;
     border-bottom: 2px solid #000;
-    margin-top: 0;
-    padding-top: 0;
+    left: 36px;
+    top: 34px;
+}
+.menu-plus-logo {
+    display: flex;   
+    width: 279px;
+    height: 33px;
+    left: 36px;
+    top: 41px; 
+}
+.menu-plus-logo > .menu-bars{
+    width: 15px;
+    height: 15px;
+    margin-top: 10px;
+    margin-right: 10px;
+    
+    padding: auto;
+}
+.menu-plus-logo > .logo{
+    width: 194px;
+    height: 28px;
+    left: 121px;
+    top: 41px;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;     
+} 
+.menu-plus-logo > .logo>span{
+    color: rgba(255, 2, 2, 1);
+}
+
+.admin-panel >div{
+    width: 142px;
+    height: 33px;
+    left: 651px;
+    top: 42px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+}
+.admin{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    width: 242px;
+    height: 49px;
+    left: 1145px;
+    top: 34px;
+}
+.admin > img{
+    width: 42px;
+    height: 44px;
+    border-radius: 50%;
+    margin-right: 10px;
+    left: 1145px;
+    top: 35px;
+}
+.admin > .name-and-email{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.admin > .name-and-email > .admin-name{
+    width: 150px;
+    height: 25px;
+    left: 1197px;
+    top: 34px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+}
+.admin > .name-and-email > .admin-email{
+    width: 150px;
+    height: 16px;
+    left: 1197px;
+    top: 67px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+}
+.admin > i{
+    width: 19px;
+    height: 19px;
+    margin-top: 17px;
+       
 }
