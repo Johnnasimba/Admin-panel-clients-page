@@ -4,7 +4,7 @@ import './client-list.style.css'
 
 const ClientList = ()  => {
     return (
-        <div id="client-list">
+        <div className="client-list">
             Client list
         </div>
     )

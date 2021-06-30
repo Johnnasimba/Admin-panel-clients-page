@@ -4,7 +4,7 @@ import './client-section.style.css'
 
 const ClientSection = ()  => {
     return (
-        <div id="client-section">
+        <div className="client-section">
            client section
         </div>
     )

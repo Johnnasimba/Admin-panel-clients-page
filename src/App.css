@@ -9,7 +9,11 @@
    
 }
 .client-container {
+    width: 100%;
+    height: 1900px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    justify-content: space-between;
 }
+

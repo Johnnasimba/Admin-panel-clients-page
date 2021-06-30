@@ -9,8 +9,8 @@ function App() {
     <div className="admin-panel-client-page">
       <Header />
       <div className="client-container">
-            <ClientList />
-            <ClientSection />
+            <ClientList className="client-list" />
+            <ClientSection className="client-section" />
       </div>
     </div>
   );

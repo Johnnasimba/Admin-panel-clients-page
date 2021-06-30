@@ -1,6 +1,8 @@
 
 
-#client-section {
-    background-color: aquamarine;
-
+.client-section {
+    background-color: rgb(44, 31, 128);
+    width: 79%;
+    height: 1856px;
+    box-sizing: border-box;
 }
