@@ -1,10 +1,97 @@
 
 .clients-list-section {
-    background-color: #c43131;
     width: 21%;
     height: 1856px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
     background: #FFFFFF;
-    border: 1px solid #000000;
+    border: 1px;
     box-sizing: border-box;
 }
+.clients-list-section > .title{
+    width: 103px;
+    height: 33px;
+    margin-top: 40px;
 
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+}
+.clients-list-section > .title > span{
+    font-weight: lighter;
+}
+
+/* search form */
+.clients-list-section >.search-form > input{
+    width: 248px;
+    height: 40px;
+    margin-top: 20px;
+    padding: 10px;
+    left: 35px;
+    top: 203px;
+
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 19px;
+}
+
+/* client list */
+.clients-list-section > .client-list{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+/* Client */
+.single-client{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    width: 197px;
+    height: 49px;
+    margin-bottom: 15px;
+    
+}
+.single-client > img{
+    width: 42px;
+    height: 44px;
+    border-radius: 50%;
+    margin-right: 10px;
+    left: 1145px;
+    top: 35px;
+}
+.client-name {
+    width: 128px;
+    height: 25px;
+    left: 101px;
+    top: 469px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+}
+.client-email{
+    width: 128px;
+    height: 14px;
+    left: 104px;
+    top: 499px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+}
+/* styles to apply when the user  clicks on a client profile  */
+.romana-francois {
+    background: #E8E8E8;
+}
