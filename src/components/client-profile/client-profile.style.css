@@ -1,8 +1,21 @@
 
 
-.client-profile {
-    /* background-color: rgb(44, 31, 128); */
+.client-profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 79%;
     height: 1856px;
+    margin-top: 40px;
+    padding: 0;
     box-sizing: border-box;
+    border-left: 1px solid black;
+    
+}
+.client-profile{
+    background-color: rgb(189, 48, 48);
+    width: 679px;
+    height: 1801px;
+    padding-top: 0;
 }
