@@ -11,14 +11,15 @@ const ClientProfile = ()  => {
                 <li>Attendance</li>
                 <li>Details</li>              
             </ul>
-            <div className="profile-image-and-name">
-                <img src={process.env.PUBLIC_URL + '/images/nancy williams.jpg'} alt="Nancy Williams" />
+            <div className="profile-image-and-name">               
+                <img src={process.env.PUBLIC_URL + '/images/romana francois.jpg'} alt="Nancy Williams" />
+                <span className="status"></span>
                 <h3>ROMANA FRANCOIS</h3>
             </div>
             <div className="information-section">
                 <section className="personal-info">
                     <div className="icon-and-title">
-                        <i class="fas fa-address-card"></i>
+                        <i class="fas fa-id-card-alt fa-lg"></i>
                         <h5>Personal Info</h5>
                     </div>
                     <div className="name-and-value">
@@ -50,23 +51,136 @@ const ClientProfile = ()  => {
                         <span>AVS</span>
                     </div>
                     <div className="name-and-value">
-                        <span>ID name</span>
-                        <span>AVS</span>
+                        <span>ID value</span>
+                        <span>756.9989.7526.17</span>
                     </div>
 
                 </section>
-                <section className="contact" >
 
+                <section className="personal-info">
+                    <div className="icon-and-title">
+                        <i class="fas fa-address-card fa-lg"></i>
+                        <h5>Contact</h5>
+                    </div>
+                    <div className="name-and-value">
+                        <span>phone</span>
+                        <span>078 225 75 50</span>
+                    </div>
+                    <div className="name-and-value">
+                        <span>Cell</span>
+                        <span>075 437 25 80</span>
+                    </div>
+                    <div className="name-and-value">
+                        <span>Email</span>
+                        <span>romana.francois@example.com</span>
+                    </div>                  
                 </section>
-                <section className="location">
-
+               
+                <section className="personal-info">
+                    <div className="icon-and-title">
+                    <i class="fas fa-map-marker-alt fa-lg"></i>
+                        <h5>Location</h5>
+                    </div>
+                    <div className="name-and-value">
+                        <span>Street number</span>
+                        <span>3471</span>
+                    </div>
+                    <div className="name-and-value">
+                        <span>Street name</span>
+                        <span>Reu Dubois</span>
+                    </div>
+                    <div className="name-and-value">
+                        <span>City</span>
+                        <span>Brutten</span>
+                    </div>                  
+                    <div className="name-and-value">
+                        <span>State</span>
+                        <span>Fribourg</span>
+                    </div>                  
+                    <div className="name-and-value">
+                        <span>Country</span>
+                        <span>Switzerland</span>
+                    </div>                  
+                    <div className="name-and-value">
+                        <span>Postcode</span>
+                        <span>6951</span>
+                    </div>                  
+                    <div className="name-and-value">
+                        <span>Coordinates:latitude</span>
+                        <span>-54.4721</span>
+                    </div>                  
+                    <div className="name-and-value">
+                        <span>Coordinate:longtude</span>
+                        <span>30.6940</span>
+                    </div>                  
+                    <div className="name-and-value">
+                        <span>Timezone:offset</span>
+                        <span>+6:00</span>
+                    </div>                  
+                    <div className="name-and-value">
+                        <span>Timezone:description</span>
+                        <span>Almaty, Dhaka, Colombo</span>
+                    </div>                                  
                 </section>
-                <section className="login-details">
-
+                <section className="personal-info">
+                    <div className="icon-and-title">
+                    <i class="fas fa-map-marker-alt fa-lg"></i>
+                        <h5>Location</h5>
+                    </div>
+                    <div className="name-and-value">
+                        <span>Street number</span>
+                        <span>3471</span>
+                    </div>
+                    <div className="name-and-value">
+                        <span>Street name</span>
+                        <span>Reu Dubois</span>
+                    </div>
+                    <div className="name-and-value">
+                        <span>City</span>
+                        <span>Brutten</span>
+                    </div>                  
+                    <div className="name-and-value">
+                        <span>State</span>
+                        <span>Fribourg</span>
+                    </div>    
+                </section>              
+                <section className="personal-info">
+                    <div className="icon-and-title">
+                    <i class="fas fa-map-marker-alt fa-lg"></i>
+                        <h5>Login details</h5>
+                    </div>
+                    <div className="name-and-value">
+                        <span>uuid</span>
+                        <span>d5ac5d23-f1f2-41c7-87fe-6d5d4eaa448c</span>
+                    </div>
+                    <div className="name-and-value">
+                        <span>Usernname</span>
+                        <span>tinykoala839</span>
+                    </div>
+                    <div className="name-and-value">
+                        <span>Password</span>
+                        <span>wp2003wp</span>
+                    </div>                                        
                 </section>
-                <section className="info">
-
+                <section className="personal-info">
+                    <div className="icon-and-title">
+                    <i class="fas fa-map-marker-alt fa-lg"></i>
+                        <h5>Info</h5>
+                    </div>
+                    <div className="name-and-value">
+                        <span>uuid</span>
+                        <span>d5ac5d23-f1f2-41c7-87fe-6d5d4eaa448c</span>
+                    </div>
+                    <div className="name-and-value">
+                        <span>Usernname</span>
+                        <span>tinykoala839</span>
+                    </div>
+                    <div className="name-and-value">
+                        <span>Password</span>
+                        <span>wp2003wp</span>
+                    </div>                                        
                 </section>
+              
             </div>
           </div>
         </div>

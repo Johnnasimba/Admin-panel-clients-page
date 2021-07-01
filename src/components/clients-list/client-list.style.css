@@ -1,7 +1,6 @@
 
 .clients-list-section {
     width: 21%;
-    height: 1856px;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;

@@ -3,6 +3,7 @@ import './App.css';
 import Header from './components/header/header.component';
 import ClientsList from './components/clients-list/client-list.component';
 import ClientProfile from './components/client-profile/client-profile.component';
+import Footer from  './components/footer/footer.component';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
             <ClientsList />
             <ClientProfile />
       </div>
+      <Footer />
     </div>
   );
 }
