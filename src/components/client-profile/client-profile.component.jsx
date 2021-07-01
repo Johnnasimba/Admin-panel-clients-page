@@ -9,7 +9,7 @@ const ClientProfile = ()  => {
             <ul className="profile-tabs" >
                 <li>Chat</li>
                 <li>Attendance</li>
-                <li>Details</li>              
+                <li className="active">Details</li>              
             </ul>
             <div className="profile-image-and-name">               
                 <img src={process.env.PUBLIC_URL + '/images/romana francois.jpg'} alt="Nancy Williams" />

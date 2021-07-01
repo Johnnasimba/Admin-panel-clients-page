@@ -39,6 +39,12 @@
 
     color: #000000;
 }
+.profile-tabs > .active{
+    width: 80px;
+    height: 24px;
+    text-align: center;
+    border-bottom: 4px solid rgba(255, 2, 2, 1);
+}
 .profile-image-and-name {
     position: relative;
     display: flex;
@@ -74,7 +80,8 @@
 .information-section > section{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    margin-bottom: 15px;
 }
 section > .icon-and-title{
     display: flex;
@@ -86,8 +93,7 @@ section > .icon-and-title{
     border-bottom: 1px solid #000;
     margin-bottom: 15px;
 }
-.icon-and-title > i{
-}
+
 .icon-and-title > h5{
     width: 150px;
     height: 25px;
@@ -95,7 +101,7 @@ section > .icon-and-title{
     
     font-family: Open Sans;
     font-style: normal;
-    font-weight: normal;
+    font-weight: bold;
     font-size: 18px;
     line-height: 25px;
     
