@@ -7,7 +7,7 @@ const Header =() => {
         <div id="header">
             
            <div className="menu-plus-logo">
-                <i class="fas fa-bars fa-lg menu-bars"></i> 
+                <i className="fas fa-bars fa-lg menu-bars"></i> 
                <div className="logo">Fitness<span >Lab</span></div> 
            </div>
            
@@ -24,7 +24,7 @@ const Header =() => {
                         nasimba4john@gmail.com
                     </div>
                 </div>
-                <i class="fas fa-chevron-down fa-lg "></i>
+                <i className="fas fa-chevron-down fa-lg "></i>
            </div>
         </div>
     )

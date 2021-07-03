@@ -5,7 +5,7 @@ import './footer.style.css';
 const Footer = () => {
     return (
         <ul className="footer">
-           <li><i class="fas fa-copyright"></i></li>
+           <li><i className="fas fa-copyright"></i></li>
            <li>Privacy policy |</li>
            <li>Terms and conditions |</li>
            <li>Contact |</li>
