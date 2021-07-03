@@ -2,7 +2,7 @@
 import React from 'react'
 import './client-list.style.css'
 
-const ClientsList = ()  => {
+const ClientsList = ({client})  => {
     return (
         <div className="clients-list-section">
            <div className="title">
@@ -25,19 +25,26 @@ const ClientsList = ()  => {
 
                     </div>
                 </div>
-               {/* client */}
-                <div className="single-client romana-francois">
-                    <img src={process.env.PUBLIC_URL + '/images/romana francois(small).jpg'} alt="Romana Francois" />
-                    <div className="client-name-and-email">
-                        <div className="client-name">
-                             Romana Francois 
-                        </div>
-                        <div className="client-email">
-                            romancefrancois@example.com
-                        </div>
+               {/* In real world situation, you will loop through clients list */}
+              
+                {client.length === 0? <p>Loading...</p> : (
+                    client.map((item, index) => (
+                    <div key={index} className="single-client romana-francois">
+                        <img src={process.env.PUBLIC_URL + item.results[0].picture.medium}
+                             alt={ item.results[0].name.first + " " + item.results[0].name.last}  />
+                        <div className="client-name-and-email">
+                            <div className="client-name">
+                                {item.results[0].name.first} {item.results[0].name.last} 
+                            </div>
+                            <div className="client-email">
+                                {item.results[0].email}
+                            </div>
 
+                        </div>
                     </div>
-                </div>
+                    ))
+                )}
+            
                {/* client */}
                 <div className="single-client">
                     <img src={process.env.PUBLIC_URL + '/images/james robert.jpg'} alt="James Robert" />

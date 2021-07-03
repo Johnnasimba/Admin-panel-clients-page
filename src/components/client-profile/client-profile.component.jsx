@@ -3,7 +3,6 @@ import React from 'react'
 import './client-profile.style.css'
 
 const ClientProfile = ({ client })  => {
-    console.log(client)
     
     return (
         <div className="client-profile-container">
