@@ -17,7 +17,7 @@ const ClientProfile = ({ client })  => {
                             <li className="active">Details</li>              
                         </ul>
                         <div className="profile-image-and-name">               
-                            <img src={process.env.PUBLIC_URL + item.results[0].picture.large}
+                            <img src={process.env.PUBLIC_URL + item.results[0].picture.large }
                              alt={ item.results[0].name.first + " " + item.results[0].name.last} />
                             <span className="status"></span>
                             <h3 className="name"> {item.results[0].name.first} {item.results[0].name.last} </h3>
