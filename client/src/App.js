@@ -8,8 +8,10 @@ import Footer from  './components/footer/footer.component';
 
 const App = () => {
   const [client, setClient] = useState([]);
+
   const getData=()=>{
-    fetch('data.json'
+
+    fetch('http://localhost:5000/client'
     ,{
       headers : { 
         'Content-Type': 'application/json',
@@ -23,10 +25,16 @@ const App = () => {
       .then(function(myJson) {
         setClient([myJson])
       });
+     
   }
   useEffect(()=>{
     getData()
+    
   },[])
+  client.map((item) => {
+    return console.log(item[0].results[0].picture)
+  })
+ 
 
   return (
     <div className="admin-panel-client-page">

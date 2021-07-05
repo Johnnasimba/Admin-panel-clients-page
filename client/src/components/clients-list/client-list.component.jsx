@@ -27,23 +27,24 @@ const ClientsList = ({client})  => {
                 </div>
                {/* In real world situation, you will loop through clients list */}
               
-                {client.length === 0? <p>Loading...</p> : (
-                    client.map((item, index) => (
+                {client.length > 0 ?  (
+                   client.map((item, index) => (
                     <div key={index} className="single-client romana-francois">
-                        <img src={process.env.PUBLIC_URL + item.results[0].picture.medium}
-                             alt={ item.results[0].name.first + " " + item.results[0].name.last}  />
+                        <img src={item[0].results[0].picture.medium}
+                             alt={ item[0].results[0].name.first + " " + item[0].results[0].name.last}  />
                         <div className="client-name-and-email">
                             <div className="client-name">
-                                {item.results[0].name.first} {item.results[0].name.last} 
+                                {item[0].results[0].name.first} {item[0].results[0].name.last} 
                             </div>
                             <div className="client-email">
-                                {item.results[0].email}
+                                {item[0].results[0].email}
                             </div>
 
                         </div>
                     </div>
                     ))
-                )}
+                ): <p>Loading...</p> 
+            }
             
                {/* client */}
                 <div className="single-client">
