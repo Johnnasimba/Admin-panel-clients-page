@@ -1,6 +1,7 @@
 
 
 .client-profile-container {
+   
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -117,3 +118,91 @@ section > .name-and-value{
     padding-bottom: 20px;
     border-bottom: 1px solid rgb(220, 220, 220);
 }
+
+@media only screen and (max-width: 1000px) {
+    .client-profile-container {
+        width: 70%;
+    }
+    .client-profile {
+        width: 500px;
+    }
+    .profile-image-and-name > img{
+        width: 197px;
+        height: 197px;
+        border-radius: 50%;
+    }
+    .profile-image-and-name > .status{
+        position: absolute;
+        width: 29px;
+        height: 29px; 
+        top: 30px;
+        left: 320px;
+       
+    }
+    section > .icon-and-title{
+        width: 500px;
+        height: 36px;
+    }
+    
+  }
+  @media only screen and (max-width: 740px) {
+    .client-profile-container {
+        width: 100%;
+        margin: 5px;
+    }  
+    .client-profile {
+        width: 300px;
+    }
+    section > .icon-and-title{
+        width: 300px;
+    }
+    .profile-image-and-name > .status{
+        position: absolute;
+        width: 29px;
+        height: 29px; 
+        top: 30px;
+        left: 320px;
+       
+    }
+    
+  }
+  @media only screen and (max-width: 600px) {
+ 
+    .client-profile {
+        width: 300px;
+        margin: 5px;
+    }
+    section > .icon-and-title{
+        width: 300px;
+    }
+    .profile-image-and-name > .status{
+        position: absolute;
+        width: 29px;
+        height: 29px; 
+        top: 30px;
+        left: 320px;
+       
+    }
+    
+  }
+
+  @media only screen and (max-width: 350px) {
+    .client-profile {
+        width: 200px;
+    }
+    section > .icon-and-title{
+        width: 300px;
+    }
+    .profile-image-and-name > .status{
+        position: absolute;
+        width: 29px;
+        height: 29px; 
+        top: 30px;
+        left: 320px;
+       
+    }
+    
+
+  }
+
+

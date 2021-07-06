@@ -13,7 +13,7 @@ const Header =() => {
            
            <div className="admin-panel">
                 <div>Admin panel</div>
-           </div>.
+           </div>
            <div className="admin">
                 <img src={process.env.PUBLIC_URL + '/images/john nasimba.jpg'} alt="admin" />
                 <div className="name-and-email">

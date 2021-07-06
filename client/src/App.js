@@ -31,9 +31,6 @@ const App = () => {
     getData()
     
   },[])
-  client.map((item) => {
-    return console.log(item[0].results[0].picture)
-  })
  
 
   return (

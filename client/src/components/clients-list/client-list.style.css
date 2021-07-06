@@ -31,8 +31,7 @@
     height: 40px;
     margin-top: 20px;
     padding: 10px;
-    left: 35px;
-    top: 203px;
+
 
     border: 1px solid #000000;
     box-sizing: border-box;
@@ -94,3 +93,22 @@
 .romana-francois {
     background: #E8E8E8;
 }
+
+/* Media queries for smaller devices */
+@media only screen and (max-width: 1230px) {
+    .clients-list-section >.search-form > input {
+        width: 150px;
+        height: 30px;
+    }
+  }
+@media only screen and (max-width: 1230px) {
+    .clients-list-section >.search-form > input {
+        width: 150px;
+        height: 30px;
+    }
+  }
+  @media only screen and (max-width: 740px) {
+    .clients-list-section {
+        display: none;
+    }    
+  }
