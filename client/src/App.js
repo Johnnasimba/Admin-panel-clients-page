@@ -11,7 +11,7 @@ const App = () => {
 
   const getData=()=>{
 
-    fetch(`${process.env.API_URL}/client`
+    fetch('http://localhost:5000/client'
     ,{
       headers : { 
         'Content-Type': 'application/json',
