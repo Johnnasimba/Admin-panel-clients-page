@@ -15,7 +15,6 @@ mongoose.Promise = global.Promise;
 mongoose.connect(process.env.MONGO_DB_URL, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
-    mode: 'no-cors'
 })
 
 
