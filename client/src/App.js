@@ -11,8 +11,7 @@ const App = () => {
 
   const getData=()=>{
 
-    fetch('http://localhost:5000/client'
-    ,{
+    fetch('/client', {
       headers : { 
         'Content-Type': 'application/json',
         'Accept': 'application/json'
